@@ -1,0 +1,22 @@
+{
+  "name": "demo-bug-grpc",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "generate": "buf generate",
+    "build-node": "bun build index.ts --target node --outfile bundle-node.js",
+    "build-bun": "bun build index.ts --target bun --outfile bundle-bun.js"
+  },
+  "devDependencies": {
+    "@bufbuild/buf": "^1.42.0",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@bufbuild/protobuf": "1.10.0",
+    "@connectrpc/connect": "^1.5.0",
+    "@connectrpc/connect-node": "^1.5.0"
+  }
+}
