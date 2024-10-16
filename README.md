@@ -1,5 +1,9 @@
 # demo-bug-grpc
 
+> [!IMPORTANT]  
+> [The original issue](https://github.com/oven-sh/bun/issues/14249) was fixed in
+> [this PR](https://github.com/oven-sh/bun/pull/14286).
+
 To install dependencies:
 
 ```bash
